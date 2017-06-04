@@ -1,4 +1,7 @@
-# Delete curious filename
+# Delete curious filename 2017-06-01
+
+## Issue Summary
+While writing a C program that writes files to disk, I had a bug that created filenames like this: ``?$????``, and I couldn't delete them with the regular ``rm -f ?$????`` command, or with ``rm -f '?$????'``.
 
 0. The Problem:
 ```
@@ -6,7 +9,6 @@
 ?$????            c_poc_compile      libcrypto.a              memory_management.c  README.md               tests
 ?$????            file_exts.txt      libssl.a  
 ```
-While writing a C program that writes files to disk, I had a bug that created filenames like this: ``?$????``, and I couldn't delete them with the regular ``rm -f ?$????`` command, or with ``rm -f '?$????'``.
 
 1. I ran the ``ls`` command to list out all the inode numbers of the files:
 ```
