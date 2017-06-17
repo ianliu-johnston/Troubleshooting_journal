@@ -16,3 +16,6 @@ Printing one file would change the character encoding of the terminal, while ano
 The character in question is ASCII code 0x0E (^N), which turns the character encoding into an emoji style characterset, but only in tmux. The ASCII character 0x0F (^O) will turn the characterset back to the default character set.
 
 If the encoding changes in tmux, I will print the character 0x0F (^O).
+
+## Future Actions
+Determine whether this is a feature of tmux or a bug. If it is a bug, submit a bug report or a pull request at the [Tmux source repository on Github](https://github.com/tmux/tmux.git)
