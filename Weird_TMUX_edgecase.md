@@ -19,3 +19,6 @@ If the encoding changes in tmux, I will print the character 0x0F (^O).
 
 ## Future Actions
 Determine whether this is a feature of tmux or a bug. If it is a bug, submit a bug report or a pull request at the [Tmux source repository on Github](https://github.com/tmux/tmux.git)
+
+## Links
+[Wikipedia: Shift In, Shift Out Control Characters](https://en.wikipedia.org/wiki/Shift_Out_and_Shift_In_characters)
