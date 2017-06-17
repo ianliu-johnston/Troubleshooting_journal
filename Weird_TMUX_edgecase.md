@@ -4,7 +4,7 @@
 While writing a C program that delt with encryption, I needed to view some encrypted files determine their contents. I used ``cat`` to do so, and occasionally got some weird results.
 
 0. The Problem:
-![Tmux character encoding][tmux_edge_case.png]
+![Tmux character encoding][tmux_edge_case.png "Example"]
 
 Printing one file would change the character encoding of the terminal, while another would change it back to the original.
 
